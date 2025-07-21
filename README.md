@@ -25,3 +25,8 @@ A simple finance tracker made to track your expenses, investments and debts. Dev
 ## Development
 
 Planned updates and current in-progress work are tracked in [CHANGELOG.md](./CHANGELOG.md)
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE) © 2025 Sakshi1608.
+
