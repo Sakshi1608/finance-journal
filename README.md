@@ -33,7 +33,7 @@ Home Page:
 ![Home Page](./images/Home.png)
 
 Login Page:
-![Login Page](./images/Login.png)
+![Login Page](./images/login.png)
 
 Dashboard:
 ![Dashboard](./images/Dashboard.png)
