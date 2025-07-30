@@ -12,7 +12,9 @@ A simple finance tracker made to track your expenses, investments and debts. Dev
   - Repository layer with JPA
 
 - **Frontend (React)**
-  - Initial component structure and navigation using React's JSX (HTML-like syntax) and CSS
+- Two UI options:
+  - Simple HTML/React
+  - Material UI
 
 
 ## Getting Started
@@ -22,12 +24,22 @@ A simple finance tracker made to track your expenses, investments and debts. Dev
 3. Start the React development server
 4. Connect frontend and backend as necessary
 
-## Development
+### Frontend Options
+ 
 
-Planned updates and current in-progress work are tracked in [CHANGELOG.md](./CHANGELOG.md)
+**This project includes two alternative frontend implementations:**
 
+#### 1. Simple HTML/React
 
-## How it looks (Screenshots)
+- Path: `client/`
+- Lightweight interface using basic React and plain CSS.
+
+**To run:**
+- cd client
+- npm install
+- npm start
+
+#### How it looks (Screenshots)
 
 Home Page:
 ![Home Page](./images/Home.png)
@@ -37,6 +49,39 @@ Login Page:
 
 Dashboard:
 ![Dashboard](./images/Dashboard.png)
+
+
+#### 2. Material UI
+
+- Path: `frontend/`
+- Modern interface using Material UI components.
+- Has Light Mode Dark Mode theme support
+
+**To run:**
+- cd frontend
+- npm install
+- npm start
+
+
+#### How it looks (Screenshots)
+
+Home Page:
+![Updated Home Page](./images/Material-HomeLight.png)
+
+Login Page:
+![Updated Login Page](./images/Material-LoginDark.png)
+
+Dashboard:
+![Updated Dashboard Page](./images/Material-Dashboard.png)
+
+
+**Switching between Frontends:**  
+Stop one server and start the other using the steps above.
+
+
+## Development
+
+Planned updates and current in-progress work are tracked in [CHANGELOG.md](./CHANGELOG.md)
 
 
 ## License
